@@ -1,0 +1,72 @@
+.boxing {
+  height: 550px;
+}
+.form.login {
+  position: absolute;
+  left: 50%;
+  bottom: -10%;
+  transform: translateX(-50%);
+  width: calc(100% + 220px);
+  padding: 20px 140px;
+  border-radius: 50%;
+  height: 100%;
+  transition: all 0.6s ease;
+  z-index: 12;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.boxing.active .form.login {
+  bottom: -15%;
+  border-radius: 35%;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form.login header {
+  color: #ffffff;
+  opacity: 0.6;
+}
+.boxing.active .form.login header {
+  color: #333;
+  opacity: 1;
+}
+
+.form.login input {
+  border: 1px solid #aaa;
+}
+
+.form.login input:focus {
+  box-shadow: 0 1px 0 #ddd;
+}
+
+.box1 {
+  display: flex;
+  border: 1px solid black;
+}
+
+.bottom {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom button {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #16a26047;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+
+.bottom button a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #a6e649;
+}

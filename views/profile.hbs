@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{Home}}</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+    <h1>Chat Application</h1>
+
+    Welcome ... {{name}}
+
+    {{!-- <form action="/logout?_method=DELETE">
+        <button type="submit">Logout</button>
+    </form> --}}
+
+    <form action="/logout" method="POST">
+        <button type="submit">Logout</button>
+    </form>
+
+
+    <div class="chatbox">
+        <input type="text" id="msg"><br>
+        <button id="btn">Send</button>
+
+        <div class="msgList">
+
+        </div>
+    </div>
+
+     <script src="/../script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatty</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+    <a href="/signup" class="hvr-btn btn1">Sign Up
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+
+    <a href="/login" class="hvr-btn btn2">Login
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+
+    <div class="chatbox">
+        <input type="text" id="msg"><br>
+        <button id="btn">Send</button>
+
+        <div class="msgList">
+
+        </div>
+    </div>
+
+
+    <script src="./script/script.js"></script>
+</body>
+</html>

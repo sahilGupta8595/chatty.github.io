@@ -1,0 +1,44 @@
+.boxing.active
+  .signup
+  header {
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+.boxing.active
+  .signup
+  header:hover{
+    text-decoration: underline;
+  }
+
+.boxing.active
+  .signup .theform{
+    opacity: 0;
+  }
+
+.boxing{
+    height: 500px;
+}
+
+.profilephoto{
+  display: flex;
+}
+
+.profilephoto label{
+  /* border: 1px solid black; */
+  width: 50%;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  padding: 5px;
+}
+.profilephoto label:hover{
+  cursor: pointer;
+  color:black;
+}
+
+.profilephoto input{
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding:5px;
+}

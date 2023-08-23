@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{login}}</title>
+    <link rel="stylesheet" href="/../styles/form.css">
+    <link rel="stylesheet" href="/../styles/login.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    
+        <div class="bubbles">
+        <span class="one"><p></p></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+    </div>
+    
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+    </div>
+
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+    </div>
+
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+    </div>
+
+    <section class="boxing">
+       <div class="form login">
+        <header>Login</header>
+        <form action="/login" method="POST">
+          <input type="email" placeholder="Email address" name="email" required />
+          <input type="password" placeholder="Password" name="password" required />
+            <a href="#">Forgot password?</a>
+          <input type="submit" value="Login" />
+        </form>
+
+        <div class="bottom">
+          <div>or</div>
+          <button type="submit"><a href="/signup">Create Account</a></button>
+        </div>
+
+      </div>
+
+    </section>
+    <script src="/../script/form.js"></script>
+    <script src="/../script/script.js"></script>
+</body>
+</html>
